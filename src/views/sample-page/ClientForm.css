@@ -1,0 +1,83 @@
+
+.client-header {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0px 1px 1px 0px #d9d9d9fb;
+}
+
+.client-form-title{
+  flex: 1;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.form-submit {
+  flex: 1;
+  text-align: right;
+  margin-top: 15px;
+  padding-right: 30px;
+}
+
+.form-submit input {
+  background-color: green;
+  width: 100px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.form-submit input:hover {
+  background-color: darkgreen;
+}
+
+.client-form-container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.left-client-form-container{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .left-table{
+  flex: 1;
+} */
+
+.left-table p{
+  font-weight: 700;
+  padding-top: 22px;
+  text-align: end;
+}
+
+.left-input{
+  flex: 2;
+}
+
+.left-input input{
+  /* width: 100%; */
+  margin-top: 17px;
+}
+
+.form-table input {
+  width: 170%;
+  height: 35px;
+  border-radius: 7px;
+  border-color: #d3d0d0;
+}
+
+.right-client-form-container{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin-left: 200px;
+} 

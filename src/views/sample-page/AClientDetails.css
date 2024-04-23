@@ -1,0 +1,130 @@
+.details-page {
+  background-color: rgb(235, 235, 235);
+}
+
+.client-header {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0px 3px 4px 0px #d1c5c5fb;
+}
+
+h1 {
+  padding: 38px 0;
+  margin-left: 10px;
+}
+
+.client-details {
+  display: flex;
+  justify-content: space-between;
+  /* Distribute space between elements */
+  align-items: center;
+
+  margin: 0 auto;
+  /* Center the container horizontally */
+  padding: 20px;
+  /* Add some padding for spacing */
+}
+
+.left-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 3;
+  /* Occupy available space */
+  
+  background-color: #fff;
+  /* White background color */
+  padding: 20px;
+  /* Add padding for spacing inside the container */
+  margin-right: 5px;
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Add a subtle shadow effect */
+}
+
+.left-container-title {
+  flex: 1;
+  text-align: end;
+  margin-right: 50px;
+}
+
+.left-container-title p{
+  padding-top: 12px;
+}
+
+.left-container-value {
+  flex: 2; 
+  font-weight: 600;
+}
+
+.left-container-value p{
+  padding-top: 12px;
+}
+
+.right-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  /* Occupy available space */
+  background-color: #fff;
+  /* White background color */
+  padding: 20px;
+  /* Add padding for spacing inside the container */
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Add a subtle shadow effect */
+  margin-left: 20px;
+}
+
+.h3 {
+  margin: 0;
+  padding: 0;
+
+}
+
+.right-container-title {
+  flex: 1;
+  align-items: start;
+padding-top: 40px;
+}
+
+.right-container-title p{
+  padding-top: 20px;
+  text-align: left;
+}
+
+.right-container-value {
+  flex: 1;
+  font-weight: 600;
+  padding-top: 40px;
+}
+
+.right-container-value p{
+  padding-top: 20px;
+}
+
+.client-projects{
+  display: flex;
+  justify-content: space-between;
+  /* Distribute space between elements */
+  align-items: center;
+
+  margin: 0 auto;
+  /* Center the container horizontally */
+  padding: 20px;
+}
+
+.project-container{
+  width: 100%;
+  background-color: #fff;
+  /* White background color */
+  padding: 20px;
+  /* Add padding for spacing inside the container */
+  margin-right: 5px;
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

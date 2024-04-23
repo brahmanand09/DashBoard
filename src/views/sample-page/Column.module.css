@@ -1,0 +1,276 @@
+.text {
+    position: relative;
+    font-size: var(--text-xs-medium-size);
+    line-height: 18px;
+    font-weight: 500;
+    font-family: var(--text-sm-medium);
+    color: var(--gray-600);
+    text-align: left;
+    display: inline-block;
+    min-width: 66px;
+  }
+  .tableHeader,
+  .tableHeaderCell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .tableHeaderCell {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-smi) var(--padding-5xl);
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray-200);
+  }
+  .text1 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .tableCell {
+    align-self: stretch;
+    background-color: var(--gray-50);
+    border-bottom: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xl) var(--padding-5xl);
+  }
+  .text2 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .tableCell1 {
+    align-self: stretch;
+    border-bottom: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xl) var(--padding-5xl);
+  }
+  .text3 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .tableCell2 {
+    align-self: stretch;
+    background-color: var(--gray-50);
+    border-bottom: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xl) var(--padding-5xl);
+  }
+  .text4 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .tableCell3 {
+    align-self: stretch;
+    border-bottom: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xl) var(--padding-5xl);
+  }
+  .text5 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .tableCell4 {
+    align-self: stretch;
+    background-color: var(--gray-50);
+    border-bottom: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xl) var(--padding-5xl);
+  }
+  .text6 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .tableCell5 {
+    align-self: stretch;
+    border-bottom: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xl) var(--padding-5xl);
+  }
+  .text7 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .tableCell6 {
+    align-self: stretch;
+    background-color: var(--gray-50);
+    border-bottom: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xl) var(--padding-5xl);
+  }
+  .text8 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .tableCell7 {
+    align-self: stretch;
+    border-bottom: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xl) var(--padding-5xl);
+  }
+  .text9 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .tableCell8 {
+    align-self: stretch;
+    background-color: var(--gray-50);
+    border-bottom: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xl) var(--padding-5xl);
+  }
+  .text10 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .column,
+  .tableCell9 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .tableCell9 {
+    align-self: stretch;
+    border-bottom: 1px solid var(--gray-200);
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-7xl) var(--padding-5xl);
+  }
+  .column {
+    width: 114px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    font-size: var(--text-sm-medium-size);
+    color: var(--gray-600);
+    font-family: var(--text-sm-medium);
+  }
+
+  
+
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+body {
+  margin: 0;
+  line-height:0%;
+}
+:root {
+  /* fonts */
+  --text-sm-medium: Inter;
+
+  /* font sizes */
+  --text-sm-medium-size: 14px;
+  --text-xs-medium-size: 12px;
+  --text-md-medium-size: 16px;
+  --font-size-lg: 18px;
+  --display-sm-semibold-size: 30px;
+
+  /* Colors */
+  --gray-50: #f9fafb;
+  --gray-100: #f2f4f7;
+  --gray-200: #eaecf0;
+  --gray-600: #475467;
+  --gray-700: #344154;
+  --white: #fff;
+  --gray-300: #d0d5dd;
+  --orange-50: #fff6ed;
+  --orange-700: #c4320a;
+  --pink-50: #fdf2fa;
+  --pink-700: #c11574;
+  --blue-50: #eff8ff;
+  --indigo-50: #eef4ff;
+  --indigo-700: #3538cd;
+  --blue-700: #175cd3;
+  --brand-50: #f9f5ff;
+  --brand-700: #6941c6;
+  --success-50: #ecfdf3;
+  --success-700: #037a48;
+  --gray-900: #101828;
+  --color-mediumslateblue-100: #9970f2;
+  --brand-600: #7e56d9;
+  --color-black: #000;
+  --gray-500: #667085;
+
+  /* Gaps */
+  --gap-xs: 12px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-7xs: 6px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-smi: 13px;
+  --padding-13xl: 32px;
+  --padding-lg: 18px;
+  --padding-xl: 20px;
+  --padding-12xl: 31px;
+  --padding-3xs: 10px;
+  --padding-11xs: 2px;
+  --padding-7xs: 6px;
+  --padding-mid: 17px;
+  --padding-2xs: 11px;
+  --padding-7xl: 26px;
+  --padding-6xl: 25px;
+  --padding-lgi: 19px;
+  --padding-4xl: 23px;
+  --padding-mini: 15px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-21xl: 40px;
+  --br-base: 16px;
+  --br-181xl: 200px;
+  --br-7xs: 6px;
+  --br-3xs: 10px;
+
+  /* Effects */
+  --shadow-xs: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}

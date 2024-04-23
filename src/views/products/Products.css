@@ -1,0 +1,53 @@
+.form-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 20px;
+  
+}
+
+.form-buttons button{
+  background-color: green;
+  width: 100px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.form-buttons button:hover{
+  background-color: darkgreen;
+}
+
+.form-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-field {
+  flex: 1 0 45%; /* Adjust width as needed */
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 13px;
+}
+
+.form-field input[type='text'],
+.form-field input[type='date'],
+.form-field input[type='checkbox'] {
+  width: calc(100% - 10px); /* Adjust width to accommodate labels */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
